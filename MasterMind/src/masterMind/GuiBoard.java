@@ -472,42 +472,42 @@ public class GuiBoard extends JFrame {
 		switch(b) {
 			case BLUE:
 				btnTemp.setOpaque(true);
-				btnTemp.setIcon(new ImageIcon("images/blueCircle.png"));
+				btnTemp.setIcon(new ImageIcon(GuiBoard.class.getResource("/images/blueCircle.png")));
 				btnTemp.setBackground(new Color(245, 222, 179));
 				btnTemp.setBorderPainted(false);
 				btnTemp.setText("");
 				break;
 			case GREEN:
 				btnTemp.setOpaque(true);
-				btnTemp.setIcon(new ImageIcon("images/greenCircle.png"));
+				btnTemp.setIcon(new ImageIcon(GuiBoard.class.getResource("/images/greenCircle.png")));
 				btnTemp.setBackground(new Color(245, 222, 179));
 				btnTemp.setBorderPainted(false);
 				btnTemp.setText("");
 				break;
 			case YELLOW:
 				btnTemp.setOpaque(true);
-				btnTemp.setIcon(new ImageIcon("images/yellowCircle.png"));
+				btnTemp.setIcon(new ImageIcon(GuiBoard.class.getResource("/images/yellowCircle.png")));
 				btnTemp.setBackground(new Color(245, 222, 179));
 				btnTemp.setBorderPainted(false);
 				btnTemp.setText("");
 				break;
 			case RED:
 				btnTemp.setOpaque(true);
-				btnTemp.setIcon(new ImageIcon("images/redCircle.png"));
+				btnTemp.setIcon(new ImageIcon(GuiBoard.class.getResource("/images/redCircle.png")));
 				btnTemp.setBackground(new Color(245, 222, 179));
 				btnTemp.setBorderPainted(false);
 				btnTemp.setText("");
 				break;
 			case BLACK:
 				btnTemp.setOpaque(true);
-				btnTemp.setIcon(new ImageIcon("images/blackCircle.png"));
+				btnTemp.setIcon(new ImageIcon(GuiBoard.class.getResource("/images/blackCircle.png")));
 				btnTemp.setBackground(new Color(245, 222, 179));
 				btnTemp.setBorderPainted(false);
 				btnTemp.setText("");
 				break;
 			case WHITE:
 				btnTemp.setOpaque(true);
-				btnTemp.setIcon(new ImageIcon("images/whiteCircle.png"));
+				btnTemp.setIcon(new ImageIcon(GuiBoard.class.getResource("/images/whiteCircle.png")));
 				btnTemp.setBackground(new Color(245, 222, 179));
 				btnTemp.setBorderPainted(false);
 				btnTemp.setText("");

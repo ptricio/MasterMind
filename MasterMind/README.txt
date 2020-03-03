@@ -19,6 +19,6 @@ Technologies:
 This program was created with Java on the eclipse IDE
 
 Setup:
-To run this project you can use your own personal IDE or create a jar file
+To run this download the jar file and run the jar file
 
 
